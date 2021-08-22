@@ -1,11 +1,11 @@
 {
-  "name": "FashionSiteDemo",
   "version": "1.0.0",
   "description": "- HTML, SCSS, Bootstrap\r     - Responsive markup",
   "main": "index.js",
-  "homepage": "https://rryaboshtan.github.io/FashionDemo",
+  "homepage": "https://rryaboshtan.github.io/FashionDemo2",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/rryaboshtan/FashionDemo/issues"
   },
-  "homepage": "https://github.com/rryaboshtan/FashionDemo#readme",
   "dependencies": {
     "gh-pages": "^3.2.3"
   }

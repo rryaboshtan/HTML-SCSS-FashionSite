@@ -257,7 +257,7 @@ main {
     }
 
     .offer {
-        background-image: url(https://rryaboshtan.github.io/FashionDemo2/assets/img/fashion.jpg);
+        // background-image: url(https://rryaboshtan.github.io/FashionDemo2/assets/img/fashion.jpg);
         background-size: cover;
         background-position: center;
         height: 460px;
@@ -449,6 +449,12 @@ footer {
         .app-download img {
             width: 224px;
         }
+        .copyright {
+            margin-left: 0;
+        }
+        .footer-icons {
+            margin-right: 0;
+        }
     }
 }
 
@@ -543,9 +549,11 @@ footer {
         }
         .footer-icons {
             text-align: center;
+            margin-right: 0;
         }
         .copyright {
             text-align: center;
+            margin-left: 0;
         }
     }
 }

@@ -284,7 +284,6 @@ main .fashion-trends .trending-img:hover .overlay {
 }
 
 main .offer {
-  background-image: url(https://rryaboshtan.github.io/FashionDemo2/assets/img/fashion.jpg);
   background-size: cover;
   background-position: center;
   height: 460px;
@@ -566,6 +565,12 @@ footer .footer-icons .fab {
   footer .app-download img {
     width: 224px;
   }
+  footer .copyright {
+    margin-left: 0;
+  }
+  footer .footer-icons {
+    margin-right: 0;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -646,8 +651,10 @@ footer .footer-icons .fab {
   }
   footer .footer-icons {
     text-align: center;
+    margin-right: 0;
   }
   footer .copyright {
     text-align: center;
+    margin-left: 0;
   }
 }

@@ -7,6 +7,33 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../webfonts/fa-brands-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../webfonts/fa-solid-900.woff2") format("woff2");
+}
+
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+.fab {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
 .fa,
 .fab,
 .fas {
@@ -21,15 +48,6 @@
 
 .fa-search:before {
   content: "\f002";
-}
-
-.fab {
-  font-family: "Font Awesome 5 Brands";
-}
-
-.fa, .fas {
-  font-family: "Font Awesome 5 Pro";
-  font-weight: 900;
 }
 
 .fa-heart:before {
@@ -266,7 +284,7 @@ main .fashion-trends .trending-img:hover .overlay {
 }
 
 main .offer {
-  background-image: url(/assets/img/fashion.jpg);
+  background-image: url(https://rryaboshtan.github.io/FashionDemo2/assets/img/fashion.jpg);
   background-size: cover;
   background-position: center;
   height: 460px;

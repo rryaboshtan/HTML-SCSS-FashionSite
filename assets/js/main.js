@@ -1,0 +1,1 @@
+const myLazy = new LazyLoad({ elements_selector: ".photo" });

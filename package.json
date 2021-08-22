@@ -1,0 +1,24 @@
+{
+  "name": "FashionSiteDemo",
+  "version": "1.0.0",
+  "description": "- HTML, SCSS, Bootstrap\r     - Responsive markup",
+  "main": "index.js",
+  "homepage": "https://rryaboshtan.github.io/FashionDemo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rryaboshtan/FashionDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rryaboshtan/FashionDemo/issues"
+  },
+  "homepage": "https://github.com/rryaboshtan/FashionDemo#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

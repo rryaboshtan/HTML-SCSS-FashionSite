@@ -1,10 +1,3 @@
-const loadLater = document.querySelector(".loadLater");
-const head = document.querySelector("head");
-
-if (loadLater && head) {
-   head.insertAdjacentHTML("beforeend", loadLater.innerHTML);
-}
-
 const myLazy = new LazyLoad({ elements_selector: ".photo" });
 
 //Background image lazy loading realization
